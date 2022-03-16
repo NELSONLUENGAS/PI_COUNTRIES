@@ -1,0 +1,141 @@
+.gridCreate{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: auto;
+}
+
+.createNav {
+    grid-column: 1 / 13;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    width: calc(100%);
+    background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 
+    0px 2px 1px -1px rgb(0 0 0 / 20%), 
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 
+    0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+.createNav span{
+    font-weight: 700;
+    font-size: 2.8rem;
+    margin-left: 8px;
+}
+.createNav button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    margin-right: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 3rem;
+    height: 3rem;
+}
+.createNav button:hover{
+    transform: scale(0.9);
+}
+.createNav button svg {
+    width: 2rem;
+    fill: aqua;
+    height: 2rem;
+}
+
+.form {
+    grid-column: 1 / 13;
+    background-image: url(https://as1.ftcdn.net/v2/jpg/01/55/40/08/1000_F_155400801_flvTyG0JIUMr1R538fxTCYciJC210CWW.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 3rem;
+    min-height: 40rem;
+    padding-bottom: 3rem;
+}
+
+.formContainer {
+    margin-top: 3rem;
+    background-color: blue;
+    flex-direction: column;
+    width: 400px;
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: left;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 
+    0px 2px 1px -1px rgb(0 0 0 / 20%), 
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 
+    0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+
+.formElement {
+    display: flex;
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+}
+.formElement select{
+    margin-left: 8px;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.formElement1 {
+    display: flex;
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+}
+.formElement1 input{
+    margin-left: 8px;
+    border-radius: 5px;
+    border-style: none;
+    text-transform: capitalize;
+}
+.formElement2 {
+    display: flex;
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+}
+.formElement2 select{
+    margin-left: 8px;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+}
+.formElement3 {
+    display: flex;
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+}
+.formElement3 input{
+    margin-left: 8px;
+    border-radius: 5px;
+    border-style: none;
+    text-transform: capitalize;
+}
+.formElement4 {
+    display: flex;
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+}
+.formElement4 select{
+    margin-left: 8px;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+}
+.formElement5 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+}
+.formElement5 button{
+    border-radius: 5px;
+    border-style: none;
+    padding: 3px;
+    cursor: pointer;
+    text-transform: capitalize;
+}

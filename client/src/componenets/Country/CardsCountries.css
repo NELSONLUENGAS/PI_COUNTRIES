@@ -1,0 +1,25 @@
+.countryContainer {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: minmax(2rem, auto);
+    padding-top: 6rem;
+    min-height: 35rem;
+    background-image: url(https://www.komar.de/en/media/catalog/product/cache/5/image/9df78eab33525d08d6e5fb8d27136e95/I/A/IAX10-0027.jpg);
+}
+
+.paginate {
+    grid-column: 1 / 13;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.countries {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding-left: 1rem;
+    gap: 5px;
+    grid-column: 1 / 13;
+}

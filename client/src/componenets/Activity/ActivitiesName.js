@@ -1,0 +1,4 @@
+const activities = [
+    'BALSAJE', 'BUCEO', 'RAPPEL', 'RAFTING', 'FUTBOL', 'CICLISMO', 'PARAPENTE', 
+    'BAILE', 'JET-SKI', 'ULTRALIVIANOS', 'CABALGATA', 
+]
